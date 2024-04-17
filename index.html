@@ -86,6 +86,34 @@
         </ul>
     </section>
     
+    <section id="formulario">
+
+        <form action="link.php" method="get">
+            
+            <h2>Registrate</h2>
+
+            <p>Nombre: <input type="text" name="nombre" required></p>
+            <p>Correo: <input type="email" id="email" pattern=".+@example\.com" size="30" required /></p>   
+            <p>Sexo:
+                <input type="radio" name="hm" value="h" required> Hombre
+                <input type="radio" name="hm" value="m" required> Mujer
+            </p>
+
+            <p>Localidad:
+            <select name="menu">
+                <option>Zona Sur</option>
+                <option>Zona norte</option>
+                <option>Zona Centro</option>
+            </select>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+    </section>
+
     <section id="ubicacion">
         <h2>Ubicación</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26211.837423952195!2d-58.20069434999999!3d-34.793872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1712704100506!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
