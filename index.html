@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
     <meta name="description" content="Restaurante El Buen Sabor ofrece platos tradicionales con un toque moderno.">
+    <meta name="keywords" content="Restaurante, buen sabor, restaurante buen sabor, el buen sabor, restaurante el buen sabor, platos tradicionales">
+    <!-- SEO -->
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <link rel="shortcut icon" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png" />
+    <link rel="android-chrome" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png" />
+    <link rel="android-chrome" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png" />
+    <!-- Favicon Icon -->
+
     <title>Restaurante El Buen Sabor</title>
 </head>
-<body background="fotos\fondo.jpg">
+<body background="assets/img/fondo.jpg" alt="Restaurante El Buen Sabor">
     <header>
         <h1>Bienvenidos a Restaurante El Buen Sabor</h1>
     </header>
@@ -33,20 +47,20 @@
         <h3>Nuestro Equipo</h3>
         <p>Nuestro talentoso equipo está conformado por personas apasionadas por la gastronomía y el servicio de excelencia:</p>
         <ul>
-            <img src="fotos\juan perez.png" alt="juan perez" width="200px" height="200px">
+            <img src="assets/img/personal/juan perez.png" alt="juan perez" width="200px" height="200px">
             <li><strong>Juan Pérez:</strong> Chef Ejecutivo y Fundador. Especialista en cocina mediterránea y asados.</li>
-            <img src="fotos\maria lopez.png" alt="maria lopez" width="200px" height="200px">
+            <img src="assets/img/personal/maria lopez.png" alt="maria lopez" width="200px" height="200px">
             <li><strong>María López:</strong> Sous Chef. Apasionada por la pastelería y la panadería, María aporta creatividad y sabor a nuestros postres.</li>
-            <img src="fotos\carlos gomez.png" alt="carlos gomez" width="200px" height="200px">
+            <img src="assets/img/personal/carlos gomez.png" alt="carlos gomez" width="200px" height="200px">
             <li><strong>Carlos Gómez:</strong> Gerente General. Con años de experiencia en gestión de restaurantes, Carlos asegura que su visita a El Buen Sabor sea impecable desde el momento en que entra por la puerta.</li>
-            <img src="fotos\laura martin.png" alt="laura martin" width="200px" height="200px">
+            <img src="assets/img/personal/laura martin.png" alt="laura martin" width="200px" height="200px">
             <li><strong>Laura Martín:</strong> Sommelier. Laura selecciona cuidadosamente los vinos que acompañan nuestros platos, asegurando la perfecta armonía entre la comida y la bebida.</li>
         </ul>
     </section>
     
     <section id="eventos">
         <h2>Eventos Especiales</h2>
-        <img src="fotos\eventos_restaurante.png" alt="eventos" width="200px" height="200px">
+        <img src="assets/img/eventos_restaurante.png" alt="eventos" width="200px" height="200px">
         <p>Descubre los eventos especiales y cenas temáticas que ofrecemos cada mes. Desde noches de tapas hasta degustaciones de vinos, hay algo para todos los gustos.</p>
     </section>
     
@@ -77,15 +91,45 @@
     </section>
     
     <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Para reservaciones y más información, contáctenos:</p>
-        <ul>
-            <li>Teléfono: +54 011 1123 7289</li>
-            <li>Email: contacto@elbuensabor.com</li>
-            <li>Dirección: Calle Sabor 232, Ciudad Wena, Paischeto</li>
-        </ul>
+        <address>
+            <h2>Contacto</h2>
+            <p>Para reservaciones y más información, contáctenos:</p>
+            <ul>
+                <li>Teléfono: +54 011 1123 7289</li>
+                <li>Email: contacto@elbuensabor.com</li>
+                <li>Dirección: Calle Sabor 232, Ciudad Wena, Paischeto</li>
+            </ul>
+        </address>
     </section>
     
+    <section id="formulario">
+
+        <form action="link.php" method="get">
+            
+            <h2>Registrate</h2>
+
+            <p>Nombre: <input type="text" name="nombre" required></p>
+            <p>Correo: <input type="email" id="email" pattern=".+@example\.com" size="30" required /></p>   
+            <p>Sexo:
+                <input type="radio" name="hm" value="h" required> Hombre
+                <input type="radio" name="hm" value="m" required> Mujer
+            </p>
+
+            <p>Localidad:
+            <select name="menu">
+                <option>Zona Sur</option>
+                <option>Zona norte</option>
+                <option>Zona Centro</option>
+            </select>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+    </section>
+
     <section id="ubicacion">
         <h2>Ubicación</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26211.837423952195!2d-58.20069434999999!3d-34.793872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1712704100506!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
