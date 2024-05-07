@@ -117,10 +117,6 @@ hr {
     flex: 0 0 50%;
     max-width: 50%;
   }
-  
-  .order-md-5 {
-    order: 5;
-  }
 }
 
 .form-control {
@@ -176,102 +172,12 @@ hr {
     flex: 0 0 50%;
     max-width: 50%;
   }
-
-  .order-lg-6 {
-    order: 6;
-  }
 }
 
 .btn-primary {
   color: #fff;
   background-color: #ff214f;
   border-color: #ff214f;
-}
-
-.nav {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  text-decoration: none;
-}
-
-.nav-link.disabled {
-  color: #6c757d;
-  pointer-events: none;
-  cursor: default;
-}
-
-.nav-tabs {
-  border-bottom: 1px solid #dee2e6;
-}
-
-.nav-tabs .nav-item {
-  margin-bottom: -1px;
-}
-
-.nav-tabs .nav-link {
-  border: 1px solid transparent;
-  border-top-left-radius: 0.2rem;
-  border-top-right-radius: 0.2rem;
-}
-
-.nav-tabs .nav-link:hover,
-.nav-tabs .nav-link:focus {
-  border-color: #eaf0fc #eaf0fc #dee2e6;
-}
-
-.nav-tabs .nav-link.disabled {
-  color: #6c757d;
-  background-color: transparent;
-  border-color: transparent;
-}
-
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: #343a40;
-  border-color: #dee2e6 #dee2e6 #343a40;
-}
-
-.nav-tabs .dropdown-menu {
-  margin-top: -1px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.nav-pills .nav-link {
-  border-radius: 0.2rem;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-  color: #fff;
-  background-color: #ff214f;
-}
-
-.nav-fill .nav-item {
-  flex: 1 1 auto;
-  text-align: center;
-}
-
-.nav-justified .nav-item {
-  flex-basis: 0;
-  flex-grow: 1;
-  text-align: center;
 }
 
 .navbar {
@@ -331,12 +237,6 @@ hr {
 .navbar-nav .dropdown-menu {
   position: static;
   float: none;
-}
-
-.navbar-text {
-  display: inline-block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .navbar-collapse {
@@ -429,14 +329,6 @@ hr {
 
 .card-body {
   padding: 1rem;
-}
-
-.card-header,
-.card-footer {
-  padding: 0.5rem 1rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid #495057;
-  border-top: 1px solid #495057;
 }
 
 .card-title,
