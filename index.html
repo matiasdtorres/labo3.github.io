@@ -1,142 +1,338 @@
 <!DOCTYPE html>
-<html lang="es-AR">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO -->
-    <meta name="description" content="Restaurante El Buen Sabor ofrece platos tradicionales con un toque moderno.">
-    <meta name="keywords" content="Restaurante, buen sabor, restaurante buen sabor, el buen sabor, restaurante el buen sabor, platos tradicionales">
-    <!-- SEO -->
-
-    <!-- Favicon Icon -->
-    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
-    <link rel="shortcut icon" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
-    <link rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png" />
-    <link rel="android-chrome" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png" />
-    <link rel="android-chrome" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png" />
-    <!-- Favicon Icon -->
-
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Restaurante El Buen Sabor</title>
+   
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body background="assets/img/fondo.jpg" alt="Restaurante El Buen Sabor">
-    <header>
-        <h1>Bienvenidos a Restaurante El Buen Sabor</h1>
-    </header>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
-    <nav>
-        <ul>
-            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-            <li><a href="menu.html">Menú</a></li>
-            <li><a href="#eventos">Eventos Especiales</a></li>
-            <li><a href="galeria.html">Galería</a></li>
-            <li><a href="#reseñas">Reseñas</a></li>
-            <li><a href="#reservaciones">Reservaciones</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-            <li><a href="#ubicacion">Ubicación</a></li>
-        </ul>
+    <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top" data-spy="affix" data-offset-top="10">
+        <button class="navbar-toggler" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#acerca">Menú</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Galeria">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#reserva">Reservaciones</a>
+                </li>
+            </ul>
+            <a class="navbar-brand" href="#">
+                <img src="assets/imgs/favicon/android-chrome-512x512.png" class="brand-img" alt="">
+                <span class="brand-txt">Restaurante El Buen Sabor</span>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Comidas<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Ubicación</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-    
-    <section id="sobre-nosotros">
-        <h2>Sobre Nosotros</h2>
-        <p>Somos un restaurante familiar que ofrece platos tradicionales con un toque moderno. Nuestra pasión es brindar una experiencia culinaria inolvidable a todos nuestros visitantes. Con años de experiencia en la industria, nuestro chef y fundador, Juan Pérez, ha viajado por el mundo para perfeccionar su arte y traer sabores únicos a su cocina.</p>
-        
-        <p>En El Buen Sabor, creemos que la clave para un plato excepcional radica en la frescura y la calidad de los ingredientes. Por eso, trabajamos estrechamente con productores locales para asegurarnos de que todo lo que servimos cumpla con nuestros altos estándares.</p>
-        
-        <h3>Nuestro Equipo</h3>
-        <p>Nuestro talentoso equipo está conformado por personas apasionadas por la gastronomía y el servicio de excelencia:</p>
-        <ul>
-            <img src="assets/img/personal/juan perez.png" alt="juan perez" width="200px" height="200px">
-            <li><strong>Juan Pérez:</strong> Chef Ejecutivo y Fundador. Especialista en cocina mediterránea y asados.</li>
-            <img src="assets/img/personal/maria lopez.png" alt="maria lopez" width="200px" height="200px">
-            <li><strong>María López:</strong> Sous Chef. Apasionada por la pastelería y la panadería, María aporta creatividad y sabor a nuestros postres.</li>
-            <img src="assets/img/personal/carlos gomez.png" alt="carlos gomez" width="200px" height="200px">
-            <li><strong>Carlos Gómez:</strong> Gerente General. Con años de experiencia en gestión de restaurantes, Carlos asegura que su visita a El Buen Sabor sea impecable desde el momento en que entra por la puerta.</li>
-            <img src="assets/img/personal/laura martin.png" alt="laura martin" width="200px" height="200px">
-            <li><strong>Laura Martín:</strong> Sommelier. Laura selecciona cuidadosamente los vinos que acompañan nuestros platos, asegurando la perfecta armonía entre la comida y la bebida.</li>
-        </ul>
-    </section>
-    
-    <section id="eventos">
-        <h2>Eventos Especiales</h2>
-        <img src="assets/img/eventos_restaurante.png" alt="eventos" width="200px" height="200px">
-        <p>Descubre los eventos especiales y cenas temáticas que ofrecemos cada mes. Desde noches de tapas hasta degustaciones de vinos, hay algo para todos los gustos.</p>
-    </section>
-    
-    <section id="galeria">
-        <h2>Galería</h2>
-        <p>Explora nuestra galería de fotos para tener un adelanto de la experiencia que te espera en El Buen Sabor.</p>
-    </section>
-    
-    <section id="reseñas">
-        <h2>Reseñas de Clientes</h2>
-        <p>Lee lo que nuestros clientes dicen sobre nosotros y descubre por qué somos el restaurante preferido por muchos.</p>
-        <section id="reseñas-adicionales">
-            <ul>
-                <li><strong>Alejandro R.</strong>: "El ambiente del restaurante es increíble, combinado con un servicio excepcional y platos que son una delicia pura. ¡Definitivamente volveré!"</li>
-                <li><strong>Carla M.</strong>: "La experiencia culinaria en El Buen Sabor es simplemente inigualable. Cada plato que probamos estaba exquisitamente preparado y presentado. ¡Una joya en la ciudad!"</li>
-                <li><strong>Ricardo S.</strong>: "Visitamos El Buen Sabor para una ocasión especial y quedamos impresionados. El chef Juan Pérez y su equipo nos brindaron una experiencia memorable. ¡Muy recomendado!"</li>
-                <li><strong>Laura G.</strong>: "Desde las entradas hasta los postres, todo lo que probamos fue sorprendente. La atención al detalle y la calidad de los ingredientes realmente marcan la diferencia."</li>
-                <li><strong>Diego P.</strong>: "El Buen Sabor es sin duda mi restaurante favorito. La atmósfera, el personal amable y, sobre todo, la comida excepcional, hacen que cada visita sea especial."</li>
-            </ul>
-        </section>
-    
-    </section>
-    
-    <section id="reservaciones">
-        <h2>Reservaciones</h2>
+
+    <header id="acerca" class="header">
+        <div class="overlay text-white text-center">
+            <h1 class="display-2 font-weight-bold my-3">Restaurante El Buen Sabor</h1>
+            <h2 class="display-4 mb-5">Cocina mediterránea &amp; Asados</h2>
+            <a class="btn btn-lg btn-primary" href="#acerca">Sobre Nosotros</a>
+        </div>
+    </header>
+
+    <div id="about" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">Sobre Nosotros</h2>
+                        <p>Somos un restaurante familiar que ofrece platos tradicionales con un toque moderno. Nuestra pasión es brindar una experiencia culinaria inolvidable a todos nuestros visitantes. 
+                            Con años de experiencia en la industria, nuestro chef y fundador, Juan Pérez, ha viajado por el mundo para perfeccionar su arte y traer sabores únicos a su cocina.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/personal/juan perez.png" alt="" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h4 class="pt20 pb20">Juan Pérez:</h4>
+                                <p class="text-white">Chef Ejecutivo y Fundador,Especialista en cocina mediterránea y asados..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/personal/maria lopez.png" alt="" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h4 class="pt20 pb20">María López:</h4>
+                                <p class="text-white">Sous Chef,Apasionada por la pastelería y la panadería, María aporta creatividad y sabor a nuestros postres..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/personal/carlos gomez.png" alt="" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h4 class="pt20 pb20">Carlos Gómez:</h4>
+                                <p class="text-white">Gerente General,Con años de experiencia en gestión de restaurantes, Carlos asegura que su visita a El Buen Sabor sea impecable</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/personal/laura martin.png" alt="" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h4 class="pt20 pb20">Laura Martín:</h4>
+                                <p class="text-white">Sommelier,Laura selecciona cuidadosamente los vinos que acompañan nuestros platos, asegurando la perfecta armonía entre la comida y la bebida..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Galeria" class="text-center bg-dark text-light has-height-md middle-items">
+        <h2 class="section-title">Galeria</h2>
+    </div>
+    <div class="gallary row">
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-1.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-2.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-3.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-4.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-5.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-6.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-7.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-8.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-9.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-10.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-11.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item">
+            <img src="assets/imgs/gallary-12.jpg" alt="" class="gallary-img">
+            <a href="#" class="gallary-overlay">
+                <i class="gallary-icon ti-plus"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="reserva">
+        <div class="">
+            <h2 class="section-title mb-5">Reserva una Mesa</h2>
+            <div class="row mb-5">
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="email" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="EMAIL">
+                </div>
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="number" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="Numero de presentes" max="20" min="0">
+                </div>
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="time" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="">
+                </div>
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="date" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="12/12/12">
+                </div>
+            </div>
+            <a href="#" class="btn btn-lg btn-primary" id="rounded-btn">Encontrar Mesa</a>
+        </div>
+    </div>
+
+    <div id="blog" class="container-fluid bg-dark text-light py-5 text-center">
+        <h2 class="section-title py-5">Nuestra comida</h2>
+        <div class="row justify-content-center">
+            <div class="col-sm-7 col-md-4 mb-5">
+                <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="foods" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-1.jpg" alt="" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$10</a></h1>
+                                <h4 class="pt20 pb20">Ensalada César:</h4>
+                                <p class="text-white">Lechuga romana, crutones, queso parmesano y nuestra exclusiva salsa César.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-2.jpg" alt="" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$12</a></h1>
+                                <h4 class="pt20 pb20">Sopa de tomate:</h4>
+                                <p class="text-white"> Servida con un toque de crema fresca y albahaca.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-3.jpg" alt="" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$20</a></h1>
+                                <h4 class="pt20 pb20">Carpaccio de res:</h4>
+                                <p class="text-white">Finas láminas de res, alcaparras, parmesano y aceite de oliva extra virgen.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-3.jpg" alt="" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
+                                <h4 class="pt20 pb20">Patatas bravas:</h4>
+                                <p class="text-white">Cubos de patatas fritas con salsa brava y alioli.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-3.jpg" alt="" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$25</a></h1>
+                                <h4 class="pt20 pb20">Paella de marisco:</h4>
+                                <p class="text-white">Con camarones, mejillones, calamares y arroz aromatizado con azafrán. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-3.jpg" alt="" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$8</a></h1>
+                                <h4 class="pt20 pb20">Steak a la parrilla:</h4>
+                                <p class="text-white">Acompañado de verduras asadas y salsa de vino tinto. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="testmonial" class="container-fluid bg-dark text-light has-height-lg middle-items">
+        <h2 class="section-title my-5 text-center">Reseñas de Clientes</h2>
         <p>¿Listo para una experiencia inolvidable? Reserva tu mesa ahora y asegura tu lugar en El Buen Sabor.</p>
-        <button>Reservar</button>
-    </section>
-    
-    <section id="contacto">
-        <address>
-            <h2>Contacto</h2>
-            <p>Para reservaciones y más información, contáctenos:</p>
-            <ul>
-                <li>Teléfono: +54 011 1123 7289</li>
-                <li>Email: contacto@elbuensabor.com</li>
-                <li>Dirección: Calle Sabor 232, Ciudad Wena, Paischeto</li>
-            </ul>
-        </address>
-    </section>
-    
-    <section id="formulario">
+        <div class="row mt-3 mb-5">
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Alejandro R</h3>
+                    <div class="testmonial-body">
+                        <p>"El ambiente del restaurante es increíble, combinado con un servicio excepcional y platos que son una delicia pura. ¡Definitivamente volveré!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Carla M.</h3>
+                    <div class="testmonial-body">
+                        <p>"La experiencia culinaria en El Buen Sabor es simplemente inigualable. Cada plato que probamos estaba exquisitamente preparado y presentado. ¡Una joya en la ciudad!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Ricardo S.</h3>
+                    <div class="testmonial-body">
+                        <p>"Visitamos El Buen Sabor para una ocasión especial y quedamos impresionados. El chef Juan Pérez y su equipo nos brindaron una experiencia memorable. ¡Muy recomendado!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <form action="link.php" method="get">
-            
-            <h2>Registrate</h2>
+    <div id="contacto" class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 px-0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6571.609031872038!2d-58.440791795681946!3d-34.55850459265354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1714760611697!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-6 px-5 has-height-lg middle-items">
+                <h3>Encuentranos</h3>
+                <p>Para más información, contáctenos:</p>
+                <div class="text-muted">
+                    <p><span class="ti-location-pin pr-3"></span>Dirección: Calle Sabor 232, Ciudad Wena, Paischeto</p>
+                    <p><span class="ti-support pr-3"></span>Teléfono: +54 011 1123 7289</p>
+                    <p><span class="ti-email pr-3"></span>Email: contacto@elbuensabor.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            <p>Nombre: <input type="text" name="nombre" required></p>
-            <p>Correo: <input type="email" id="email" pattern=".+@example\.com" size="30" required /></p>   
-            <p>Sexo:
-                <input type="radio" name="hm" value="h" required> Hombre
-                <input type="radio" name="hm" value="m" required> Mujer
-            </p>
-
-            <p>Localidad:
-            <select name="menu">
-                <option>Zona Sur</option>
-                <option>Zona norte</option>
-                <option>Zona Centro</option>
-            </select>
-            </p>
-
-            <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
-            </p>
-        </form>
-    </section>
-
-    <section id="ubicacion">
-        <h2>Ubicación</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26211.837423952195!2d-58.20069434999999!3d-34.793872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1712704100506!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-    
-    <footer>
-        <p>© 2024 Restaurante El Buen Sabor. Todos los derechos reservados.</p>
-    </footer>
+    <div class="bg-dark text-light text-center border-top">
+        <p class="mb-0 py-3 text-muted small">&copy; Copyright <script>document.write(new Date().getFullYear())</script></p>
+    </div>
 </body>
 </html>
